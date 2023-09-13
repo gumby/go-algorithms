@@ -14,7 +14,7 @@ func main() {
 	fmt.Printf("Max: ")
 	fmt.Scanln(&max)
 
-	slice := makeRandomSlice(5, 1000)
+	slice := makeRandomSlice(numItems, max)
 	printSlice(slice, 5)
 	fmt.Println("----")
 	bubbleSort(slice)
